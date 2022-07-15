@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    color: #009933;
+}
+
+body {
+    background-color: #f9f2ec;
+}
+
+*ul {
+    list-style: none;
+}
+
+.heading-words {
+    text-align: center;
+    background-color: #009933;
+    margin: 0 0px;
+    padding: 0 0px;
+    max-height: 100%;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 75px;
+    z-index: 99;
+    box-shadow: 0 5px;
+}
+
+.heading-top {
+    object-fit: contain;
+    text-align: center;
+    margin-right: 750px;
+}
+
+
+img {
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    margin-top: 25px;
+}
+
+nav {
+    height: 600px;
+    border: 1px solid #009933;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+nav ul li:hover {
+    color: #ac7339;
+    text-decoration: italic;
+}
+
+nav ul a:hover,
+a:hover {
+    color: #ac7339;
+    text-decoration: italic;
+}
+
+ul li:active {
+    color: purple;
+}
+
+a {
+    color: #999999;
+}
+
+
+a:active {
+    color: purple;
+}
+
+
+section {
+    margin-top: 300px;
+    padding: 40px;
+    font-size: 40px;
+    border: 1px solid #009933
+}
+
+section ul {
+    list-style-type: none;
+}
+
+.color-palette-container {
+    margin-top: 10px;
+    position: sticky;
+}
+
+#color-container-1 {
+    background-color: #009933;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+    margin-right: 50px;
+    color: white;
+}
+
+#color-container-2 {
+    background-color: #ac7339;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+    margin-right: 50px;
+    color: white;
+}
+
+#color-container-3 {
+    background-color: #999999;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+    color: white;
+}
+
+.fonts-container {
+    margin-top:100px;
+    line-height: 200%;
+}
+
+#font-container-3 {
+    text-decoration: italic;
+}
+
+.text-styling {
+    margin-top: 100px;
+    line-height: 200%;
+}
+
+#text-styling-container-2 {
+    font-size: 30px;
+}
+
+#text-styling-container-3 {
+    font-weight: 700;
+}
+
+footer {
+    width: 100%;
+    margin-top:2%;
+    height: 50%;
+    text-align: center;
+    font-size: 35px;
+    position: sticky;
+}
